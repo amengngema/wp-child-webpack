@@ -1,0 +1,29 @@
+{
+  "name": "divi-child",
+  "version": "1.0.0",
+  "description": "divi child webpack build",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode development"
+  },
+  "author": "Vladimir Campos",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
